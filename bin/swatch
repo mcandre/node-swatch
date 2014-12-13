@@ -1,0 +1,9 @@
+#!/usr/bin/env node
+
+var swatch = require("../lib/swatch");
+
+function main() {
+  console.log(swatch.swatchNow());
+}
+
+if (!module.parent) { main(); }
