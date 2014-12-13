@@ -1,5 +1,12 @@
 # node-swatch - Internet Time converter
 
+# EXAMPLE
+
+```
+$ swatch
+@150.00
+```
+
 # HOMEPAGE
 
 https://github.com/mcandre/node-swatch
@@ -7,13 +14,6 @@ https://github.com/mcandre/node-swatch
 # NPM
 
 https://www.npmjs.com/package/swatch
-
-# EXAMPLE
-
-```
-$ swatch
-@150.00
-```
 
 # INSTALL
 
