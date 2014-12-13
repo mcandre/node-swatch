@@ -5,6 +5,11 @@
 ```
 $ swatch
 @150.00
+$ swatch
+@150.01
+$ swatch
+@150.02
+...
 ```
 
 # HOMEPAGE
