@@ -3,7 +3,6 @@
 # EXAMPLE
 
 ```
-$ npm install swatch
 $ swatch
 @150.00
 ```
