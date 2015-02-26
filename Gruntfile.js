@@ -8,6 +8,7 @@ module.exports = function(grunt) {
 
       jshint: "node_modules/jshint/bin/jshint .",
       jslint: "find . -type d -name node_modules -prune -o -type d -name bower_components -prune -o -type f -name '*[-.]min.js' -prune -o -type f -name '*.js' -exec node_modules/jslint/bin/jslint.js {} \\;",
+      eslint: "node_modules/eslint/bin/eslint.js .",
       aspelllint: "bundle exec aspelllint",
       lili: "bundle exec lili ."
 		}
@@ -23,11 +24,13 @@ module.exports = function(grunt) {
     "exec:jshint",
     // Go to bed, Crockford
     // "exec:jslint",
+    "exec:eslint",
     "exec:lili"
   ]);
 
   grunt.registerTask("jshint", ["exec:jshint"]);
   grunt.registerTask("jslint", ["exec:jslint"]);
+  grunt.registerTask("eslint", ["exec:eslint"]);
   grunt.registerTask("aspelllint", ["exec:aspelllint"]);
   grunt.registerTask("lili", ["exec:lili"]);
 };
