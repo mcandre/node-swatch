@@ -3,7 +3,8 @@ module.exports = function(grunt) {
 		exec: {
 			test: "npm test",
       cucumber: "bundle exec cucumber",
-      jshint: "jshint .",
+
+      jshint: "node_modules/jshint/bin/jshint .",
       aspelllint: "bundle exec aspelllint",
       lili: "bundle exec lili ."
 		}
