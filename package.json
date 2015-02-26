@@ -12,6 +12,7 @@
   },
   "main": "lib/swatch.js",
   "scripts": {
+    "exec": "exec",
     "test": "node bin/swatch"
   },
   "dependencies": {
