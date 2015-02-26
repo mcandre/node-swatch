@@ -12,8 +12,7 @@
   },
   "main": "lib/swatch.js",
   "scripts": {
-    "test": "node bin/swatch",
-    "lint": "jshint ."
+    "test": "node bin/swatch"
   },
   "dependencies": {
     "sprintf": "~0.1.3",
