@@ -1,3 +1,5 @@
+"use strict";
+
 module.exports = function(grunt) {
   grunt.initConfig({
 		exec: {
@@ -5,6 +7,7 @@ module.exports = function(grunt) {
       cucumber: "bundle exec cucumber",
 
       jshint: "node_modules/jshint/bin/jshint .",
+      jslint: "find . -type d -name node_modules -prune -o -type d -name bower_components -prune -o -type f -name '*[-.]min.js' -prune -o -type f -name '*.js' -exec node_modules/jslint/bin/jslint.js {} \\;",
       aspelllint: "bundle exec aspelllint",
       lili: "bundle exec lili ."
 		}
@@ -18,10 +21,13 @@ module.exports = function(grunt) {
 
   grunt.registerTask("lint", [
     "exec:jshint",
+    // Go to bed, Crockford
+    // "exec:jslint",
     "exec:lili"
   ]);
 
   grunt.registerTask("jshint", ["exec:jshint"]);
+  grunt.registerTask("jslint", ["exec:jslint"]);
   grunt.registerTask("aspelllint", ["exec:aspelllint"]);
   grunt.registerTask("lili", ["exec:lili"]);
 };
