@@ -1,5 +1,7 @@
 #!/usr/bin/env node
 
+'use strict';
+
 var swatch = require("../lib/swatch");
 
 function main() {
