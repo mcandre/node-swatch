@@ -17,6 +17,7 @@
   },
   "dependencies": {
     "sprintf": "~0.1.3",
+    "rho-contracts": "0.0.5",
     "pkginfo": "~0.3.0"
   },
   "devDependencies": {
