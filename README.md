@@ -28,7 +28,7 @@ $ npm install [-g] swatch
 
 # REQUIREMENTS
 
-* [Node.js](http://nodejs.org/) 0.11.6+
+* [Node.js](http://nodejs.org/) 6.9.1+
 
 ## Optional
 
