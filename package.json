@@ -1,32 +1,32 @@
 {
-  "name": "swatch",
-  "description": "Internet Time converter",
-  "version": "0.0.0",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/mcandre/node-swatch.git"
-  },
-  "author": "Andrew Pennebaker <andrew.pennebaker@gmail.com> (http://www.yellosoft.us/)",
-  "engines": {
-    "node": ">=6.9.1"
-  },
-  "main": "lib/swatch.js",
-  "scripts": {
-    "exec": "exec",
-    "test": "node bin/swatch"
-  },
-  "dependencies": {
-    "sprintf": "~0.1.3",
-    "rho-contracts": "0.0.5",
-    "pkginfo": "~0.3.0"
-  },
-  "devDependencies": {
-    "grunt": "~0.4.5",
-    "grunt-cli": "~0.1.13",
-    "grunt-exec": "~0.4.6",
-    "jshint": ">=2.1.2",
-    "jslint": ">= 0.8.1",
-    "eslint": ">= 0.16.0",
-    "editorconfig-tools": ">= 0.0.1"
-  }
+    "name": "swatch",
+    "description": "Internet Time converter",
+    "version": "0.0.0",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/mcandre/node-swatch.git"
+    },
+    "author": "Andrew Pennebaker <andrew.pennebaker@gmail.com>",
+    "engines": {
+        "node": ">=6.9.1"
+    },
+    "main": "lib/swatch.js",
+    "scripts": {
+        "exec": "exec",
+        "test": "node bin/swatch"
+    },
+    "dependencies": {
+        "sprintf": "~0.1.3",
+        "rho-contracts": "0.0.5",
+        "pkginfo": "~0.3.0"
+    },
+    "devDependencies": {
+        "grunt": "~0.4.5",
+        "grunt-cli": "~0.1.13",
+        "grunt-exec": "~0.4.6",
+        "jshint": ">=2.1.2",
+        "jslint": ">= 0.8.1",
+        "eslint": ">= 0.16.0",
+        "eclint": "~2.8.1"
+    }
 }

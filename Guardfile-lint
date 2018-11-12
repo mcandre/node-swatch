@@ -1,9 +1,0 @@
-guard :shell do
-  watch(/^.*\.(jshintrc|jshintignore|csslintrc|js|json|css|html)$/) do |m|
-    title = 'Lint'
-    eager 'npm run-script lint'
-    status = ($?.success? && :success) || :failed
-    n '', title, status
-    ''
-  end
-end
