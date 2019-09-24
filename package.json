@@ -21,12 +21,15 @@
         "pkginfo": "~0.3.0"
     },
     "devDependencies": {
+        "eclint": "~2.8.1",
+        "esformatter-braces": "~1.2.1",
+        "esformatter-quotes": "~1.1.0",
+        "eslint": ">= 0.16.0",
         "grunt": "~0.4.5",
         "grunt-cli": "~0.1.13",
         "grunt-exec": "~0.4.6",
+        "jsfmt": "0.5.3",
         "jshint": ">=2.1.2",
-        "jslint": ">= 0.8.1",
-        "eslint": ">= 0.16.0",
-        "eclint": "~2.8.1"
+        "jslint": ">= 0.8.1"
     }
 }

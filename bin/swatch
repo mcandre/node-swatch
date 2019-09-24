@@ -2,7 +2,7 @@
 
 'use strict';
 
-var swatch = require("../lib/swatch");
+var swatch = require('../lib/swatch');
 
 function main() {
     console.log(swatch.swatchNow());
